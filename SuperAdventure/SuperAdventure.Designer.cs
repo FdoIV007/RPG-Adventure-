@@ -129,7 +129,7 @@
             label5.Size = new Size(94, 20);
             label5.TabIndex = 8;
             label5.Text = "Select action";
-            label5.Click += label5_Click;
+            
             // 
             // cboWeapons
             // 
@@ -288,7 +288,6 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "SuperAdventure";
             Text = "My Game";
-            Load += SuperAdventure_Load;
             ((System.ComponentModel.ISupportInitialize)dgvInventory).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvQuests).EndInit();
             ResumeLayout(false);
